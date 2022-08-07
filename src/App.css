@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  background-color: coral;
+  width: 100vw;
+  height: 100vh;
+  color:white;
 }
 
+.appHeading{
+  font-size: 2.5rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

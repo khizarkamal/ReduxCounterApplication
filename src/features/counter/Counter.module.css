@@ -1,0 +1,49 @@
+#counterContainer {
+    width: 100%;
+}
+
+.counterHeading {
+    display: block;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#counterContainer input {
+    display: block;
+    width: 70vw;
+    margin: 1rem auto;
+    height: 3rem;
+    font-size: 1.3rem;
+    padding: .4rem;
+    border: none;
+    outline: 2px solid coral;
+}
+
+
+#counterContainer button {
+    display: block;
+    width: 40vw;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: .5rem auto;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+#counterContainer button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:coral;
+    transform: scale(1.05);
+    
+    
+    
+
+}
